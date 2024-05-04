@@ -1,0 +1,1 @@
+nohup python -m infinigen.datagen.manage_jobs --output_folder outputs/counting_data --num_scenes 200 --config high_quality_terrain --pipeline_configs custom_compute.gin monocular.gin cuda_terrain opengl_gt --cleanup big_files --warmup_sec 6000 >>./generating_counting_data_30_4_2024.log 2>&1 &
