@@ -35,18 +35,18 @@ compose_scene.flying_creature_registry = [
 compose_scene.bug_swarm_chance = 0.5
 
 compose_scene.trees_chance = 1.0
-compose_scene.tree_density = 0.5
+compose_scene.tree_density = 0.11
 
 compose_scene.ground_leaves_chance = 0.7
-compose_scene.ground_twigs_chance = 0.7
-compose_scene.chopped_trees_chance = 0.3
-compose_scene.grass_chance = 0.4
-compose_scene.ferns_chance = 0.6
+compose_scene.ground_twigs_chance = 0
+compose_scene.chopped_trees_chance = 0
+compose_scene.grass_chance = 0
+compose_scene.ferns_chance = 0
 compose_scene.flowers_chance = 0.8
 compose_scene.monocots_chance = 0.5
 compose_scene.mushroom_chance = 0.8
 compose_scene.pinecone_chance = 0.8
-compose_scene.pine_needle_chance = 0.6
+compose_scene.pine_needle_chance = 0
 
 populate_scene.slime_mold_chance = 0.0
 populate_scene.ivy_chance = 0.2
