@@ -134,8 +134,8 @@ if __name__ == "__main__":
         for exemp_ind in range(min(len(annotation["detection"]["instances"]), 3)):
             annotation["exemplars"].append(annotation["detection"]["instances"][exemp_ind])
             
-        # JSON file name is <scene>-<query_name>.json
-        with open(str(args.folder).split("/")[-2] + "-" + args.query + ".json", "w") as outfile:
+        # JSON file name is <scene>-<seed>-<query>.json
+        with open(str(args.folder).split("/")[-2] + "-" + str(args.folder).split("/")[-1] + "-" + args.query + ".json", "w") as outfile:
           pretty_json = json.dumps(annotation, indent=4)
           outfile.write(pretty_json)
     else:
